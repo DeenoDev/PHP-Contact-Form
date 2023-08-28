@@ -6,5 +6,10 @@ if(isset($_POST['submit'])) {
     $mailFrom = $_POST['mail'];
     $message = $_POST['message'];
 
+    $mailTo = "deyanoklaasen@outlook.com";
+    $headers = "From: ".$mailFrom;
+    $txt = "You have received an e-mail from ".$name.".\n\n".$message; 
+
+
     mail();
 }
