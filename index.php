@@ -14,7 +14,7 @@
             <input type="text" name="name" placeholder="Full Name">
             <input type="text" name="mail" placeholder="Your E-mail">
             <input type="text" name="subject" placeholder="Subject">
-            <textarea name="message" placeholder="Message"></textarea>
+            <textarea name="message" placeholder="Message" rows="10" cols="22"></textarea>
             <button type="submit" name="submit">SEND MAIL</button>
         </form>
     </main>

@@ -17,4 +17,5 @@ main{
 
 button{
     display: block;
+    cursor: pointer;
 }
