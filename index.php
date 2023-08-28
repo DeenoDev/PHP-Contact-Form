@@ -8,14 +8,14 @@
 </head>
 <body>
     <main>
-        <p>SEND E-Mail</p>
+        
         <form class="contact-form" action="contactform.php" method="post">
+        <p>SEND E-Mail</p>
             <input type="text" name="name" placeholder="Full Name">
             <input type="text" name="mail" placeholder="Your E-mail">
             <input type="text" name="subject" placeholder="Subject">
             <textarea name="message" placeholder="Message"></textarea>
             <button type="submit" name="submit">SEND MAIL</button>
-
         </form>
     </main>
     

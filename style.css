@@ -1,0 +1,16 @@
+input{
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.contact-form{
+    /* display: flex;
+    flex-direction: column; */
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
